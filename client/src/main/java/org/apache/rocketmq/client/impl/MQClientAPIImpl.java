@@ -438,7 +438,7 @@ public class MQClientAPIImpl {
         final SendMessageRequestHeader requestHeader,
         final long timeoutMillis,
         final CommunicationMode communicationMode,
-        final SendCallback sendCallback,
+        final SendCallback sendCallback, // 回调函数
         final TopicPublishInfo topicPublishInfo,
         final MQClientInstance instance,
         final int retryTimesWhenSendFailed,
